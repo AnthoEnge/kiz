@@ -1,0 +1,636 @@
+@media only screen and (min-device-width : 1300px){
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Bitter', serif;
+    src: url(https://fonts.googleapis.com/css2?family=Bitter&display=swap);
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+header {
+    height: 300px;
+    background: url("../img/logo.png") center;
+    background-size: 50%;
+    border-bottom:  solid 1px rgb(0, 0, 0);
+    background-color: rgb(202, 138, 0);
+    box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+}
+header nav {
+    background-color: black;
+    color:white;
+    height: 60px;
+    opacity: 0.9;
+}
+.logoKiz {
+    height: 50px;
+    margin: 5px 30px;
+}
+
+.bar {
+    position: absolute;
+    margin: 5px;
+    top : 10px;
+    left: 120px;
+}
+.bar span {
+    color: rgb(202, 138, 0);
+}
+header nav ul {
+    display: inline-flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    top:15px;
+    left: 550px;
+    border: 1px solid rgb(48, 48, 48);
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: border 0.5s;
+}
+header nav ul:hover {
+    border: 1px solid rgb(202, 138, 0);
+}
+nav ul li {
+    margin-right: 50px;
+    transition: all 0.2s;
+    padding-left: 30px;
+    
+}
+nav ul li:hover {
+    color:rgb(202, 138, 0);
+}
+nav {
+    width: 100%;
+    position: fixed;
+}
+nav #logo {
+    width: 150px;
+    position: relative;
+}
+#actif {
+    color:rgb(202, 138, 0);
+}
+body {
+    font-family: 'Bitter', serif;
+}
+
+/************** content*******************/
+.content{
+    margin: 0 auto;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    width: 90%;
+}
+.content h1 {
+    margin-top: 20px;
+    color: rgb(48, 48, 48);
+    font-size: 40px;
+    font-weight: bold;
+}
+.content span {
+    font-size: 22px;
+    position: relative;
+    top:198px;
+}
+#dofus {
+    position: absolute;
+    width: 400px;
+    top: 360px;
+    left: 40%;
+    z-index: -1;
+}
+/************* Content 2 ******************/
+
+.content2{
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(202, 138, 0);
+    border-top:  solid 1px black;
+    box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 300px;
+    padding-bottom: 25px;
+
+}
+#img {
+    height: 180px;
+    width: 230px;
+    padding: 40px 60px;
+    background-color: rgba(32, 32, 32);
+    box-shadow: rgb(0, 0, 0) 10px 10px 10px;
+    border-radius: 25px;
+    transition: all 0.3s;
+
+
+}
+#img:hover {
+    box-shadow: rgb(0, 0, 0) 5px 5px 10px;
+    position: relative;
+    background: url(../img/logo.png) center no-repeat;
+    background-color:rgb(48, 48, 48);
+    top:5px;
+    left: 5px;
+    background-size: 140%;
+}
+
+article {
+    width: auto;
+    margin: auto auto;
+    cursor: pointer;
+    text-align: center;
+
+}
+#article2 {
+    display: grid;
+    align-content: center;
+}
+
+article h3 {
+    color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    width: 90%;
+    position: relative;
+    top: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#iop {
+    position: relative;
+    height: 400px;
+    width: auto;
+    right: 500px;
+    bottom:172px;
+    opacity: 0.9;
+    z-index: -1;
+    overflow: hidden;
+}
+#elio {
+    position: relative;
+    height: 360px;
+    width: auto;
+    left: 500px;
+    bottom:168px;
+    opacity: 0.9;
+    z-index: -1;
+    overflow: hidden;
+}
+
+/***************FOOTER**************/
+footer {
+    height: 90px;
+    padding-top: 20px;
+    border-top:  solid 1px black;
+}
+#image {
+    text-align: center;
+}
+#image:hover {
+    transform: rotateY(360deg);
+}
+#ytb {
+    height: 100px;
+    width: auto;
+    transform: rotateY(360deg);
+}
+#twitch {
+    position:relative;
+    bottom: 10px;
+    height: 80px;
+    width: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#twitch:hover {
+    transition: all 0.5s;
+    transform: rotateY(180deg);
+}
+
+.content3 p {
+    position: relative;
+    color: rgb(202, 138, 0);
+    font-weight: bold;
+    top: -70px;
+    left: 180px;
+    width: 150px;
+}
+}
+/****************** TELEPHONE ********************/
+@media only screen and (min-device-width : 280px) and (max-device-width : 540px) {
+
+    @font-face {
+        font-family: 'Bitter', serif;
+        src: url(https://fonts.googleapis.com/css2?family=Bitter&display=swap);
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        
+        color: white;
+    }
+    header {
+        height: 200px;
+        width: 100%;
+        background: url("../img/logo.png") center;
+        border-bottom:  solid 1px rgb(0, 0, 0);
+        background-color: rgb(202, 138, 0);
+        box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+    }
+    header nav {
+        background-color: black;
+        width: 100%;
+        color:white;
+        height: 60px;
+        opacity: 0.9;
+    }
+    .logoKiz {
+        height: 50px;
+        margin: 5px 10px;
+    }
+    .bar {
+        display: none !important;
+    }
+    header nav ul {
+        width: 80%;
+        text-align: center;
+        display: inline-flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        bottom: 55px;
+        left: 60px;
+    }
+    nav ul li {
+        padding: 10px 12px;
+        text-align: center;
+        font-size: 9px;
+        transition: all 0.2s;
+    }
+    .haut {
+        position: relative;
+    
+    }
+    nav ul li:hover {
+        color:rgb(202, 138, 0);
+    }
+    nav {
+        width: 100%;
+
+    }
+    #actif {
+        color:rgb(202, 138, 0);
+    }
+    body {
+        font-family: 'Bitter', serif;
+    }
+    #mobileI {
+        display: none !important;
+    }
+    
+    /************** content*******************/
+    .content{
+        margin: 0 auto;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+    }
+    .content h1 {
+        margin-top: 30px;
+        color: rgb(48, 48, 48);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .content span {
+        font-size: 22px;
+        position: relative;
+        top:190px;
+    }
+    #dofus {
+        display: none !important;
+    }
+    span {
+        display: none !important;
+    }
+    /************* Content 2 ******************/
+
+    .content2{
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(202, 138, 0);
+        border-top:  solid 1px black;
+        box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+        display: grid;
+    }
+    #img {
+        height: auto;
+        width: 200px;
+        padding: 50px 30px;
+        background-color: rgba(32, 32, 32);
+        box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+        border-radius: 25px;
+        transition: all 0.5s;
+    }
+    #img:hover {
+        position: relative;
+        background: url(../img/logo.png) center no-repeat;
+        background-color:rgb(48, 48, 48);
+        top:5px;
+        left: 5px;
+        background-size: 140%;
+    }
+
+    article {
+        margin: 0 auto;
+        cursor: pointer;
+        text-align: center;
+
+    }
+
+    article h3 {
+        color: rgba(255, 255, 255, 0.5);
+        margin: auto;
+        width: 90%;
+        position: relative;
+        top: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    #iop {
+        display: none !important;
+    }
+    #elio {
+        display: none !important;
+    }
+
+    /***************FOOTER**************/
+    footer {
+        height: 90px;
+        padding-top: 20px;
+        border-top:  solid 1px black;
+    }
+    #image {
+        text-align: center;
+    }
+    #image:hover {
+        transform: rotateY(360deg);
+    }
+    #ytb {
+        height: 100px;
+        width: auto;
+        transform: rotateY(360deg);
+    }
+    #twitch {
+        position:relative;
+        bottom: 10px;
+        height: 80px;
+        width: auto;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    #twitch:hover {
+        transition: all 0.5s;
+        transform: rotateY(180deg);
+    }
+
+    .content3 p {
+        color: rgb(202, 138, 0);
+        font-weight: bold;
+        text-align: center;
+
+    }
+}
+/**************** TABLETTE ********************/
+@media only screen and (min-device-width : 700px) and (max-device-width : 1300px) {
+
+    @font-face {
+        font-family: 'Bitter', serif;
+        src: url(https://fonts.googleapis.com/css2?family=Bitter&display=swap);
+    }
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        
+        color: white;
+    }
+    header {
+        height: 200px;
+        width: 100%;
+        background: url("../img/logo.png") center;
+        background-size: 60%;
+        border-bottom:  solid 1px rgb(0, 0, 0);
+        background-color: rgb(202, 138, 0);
+        box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+    }
+    header nav {
+        background-color: black;
+        width: 100%;
+        color:white;
+        height: 60px;
+        opacity: 0.9;
+    }
+    .logoKiz {
+        height: 50px;
+        margin: 5px 10px;
+    }
+    .bar {
+        position: absolute;
+        margin: 5px;
+        top : 18px;
+        left: 60px;
+        font-size: 15px;
+    }
+    header nav ul {
+        width: auto;
+        text-align: center;
+        display: inline-flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        bottom: 50px;
+        left: 30%;
+        border: 1px solid rgb(48, 48, 48);
+        border-radius: 10px;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: border 0.5s;
+    }
+    header nav ul:hover {
+        border: 1px solid rgb(202, 138, 0) ;
+
+    }
+    nav ul li {
+        padding: 10px 12px;
+        text-align: center;
+        font-size: 12px;
+        transition: all 0.2s;
+    }
+
+    nav ul li:hover {
+        color:rgb(202, 138, 0);
+    }
+    nav {
+        width: 100%;
+
+    }
+    #actif {
+        color:rgb(202, 138, 0);
+    }
+    body {
+        font-family: 'Bitter', serif;
+    }
+    
+    /************** content*******************/
+    .content{
+        margin: 0 auto;
+        text-align: center;
+        height: 300px;
+        width: 100%;
+    }
+    .content h1 {
+        margin-top: 30px;
+        color: rgb(48, 48, 48);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .content span {
+        font-size: 22px;
+        position: relative;
+        top: 195px;
+    }
+    #dofus {
+    position: absolute;
+    margin: 0 auto;
+    z-index: -1;        
+    }
+
+ 
+    /************* Content 2 ******************/
+
+    .content2{
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(202, 138, 0);
+        border-top:  solid 1px black;
+        box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+        
+    }
+    #img {
+        height: 180px;
+        width: 220px;
+        padding: 30px 60px;
+        background-color: rgba(32, 32, 32);
+        box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+        border-radius: 25px;
+        transition: all 0.5s;
+    }
+    #img:hover {
+        position: relative;
+        background: url(../img/logo.png) center no-repeat;
+        background-color:rgb(48, 48, 48);
+        top:5px;
+        left: 5px;
+        background-size: 140%;
+    }
+
+    article h3 {
+        color: rgba(255, 255, 255, 0.5);
+        margin: auto;
+        width: 90%;
+        position: relative;
+        top: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    #iop {
+        position: relative;
+        height: 400px;
+        width: auto;
+        right: 320px;
+        bottom:170px;
+        opacity: 0.9;
+        z-index: -1;
+        transform: rotateY(180deg);
+        overflow: hidden;
+    }
+    #elio {
+        display: none !important;
+    }
+
+    #mobile {
+        display: flex;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    article {
+        margin: 0 auto;
+    }
+
+    /***************FOOTER**************/
+    footer {
+        height: 90px;
+        padding-top: 20px;
+        border-top:  solid 1px black;
+    }
+    #image {
+        text-align: center;
+    }
+    #image:hover {
+        transform: rotateY(360deg);
+    }
+    #ytb {
+        height: 100px;
+        width: auto;
+        transform: rotateY(360deg);
+    }
+    #twitch {
+        position:relative;
+        bottom: 10px;
+        height: 80px;
+        width: auto;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    #twitch:hover {
+        transition: all 0.5s;
+        transform: rotateY(180deg);
+    }
+
+    .content3 p {
+        color: rgb(202, 138, 0);
+        font-weight: bold;
+        text-align: center;
+
+    }
+}

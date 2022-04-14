@@ -1,0 +1,234 @@
+@media only screen and (min-device-width : 1300px){
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    @font-face {
+        font-family: 'Bitter', serif;
+        src: url(https://fonts.googleapis.com/css2?family=Bitter&display=swap);
+    }
+    ul {
+        text-decoration: none;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    header {
+        height: 300px;
+        background: url("../img/logo.png") center;
+        background-size: 50%;
+        border-bottom:  solid 1px rgb(0, 0, 0);
+        background-color: rgb(202, 138, 0);
+        box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+    }
+    header nav {
+        background-color: black;
+        color:white;
+        height: 60px;
+        opacity: 0.9;
+    }
+    .logoKiz {
+        height: 50px;
+        margin: 5px 30px;
+    }
+    
+    .bar {
+        position: absolute;
+        margin: 5px;
+        top : 10px;
+        left: 120px;
+    }
+    .bar span {
+        color: rgb(202, 138, 0);
+    }
+    #actif {
+        color:rgb(202, 138, 0);
+    }
+    header nav ul {
+        display: inline-flex;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: absolute;
+        top:15px;
+        left: 550px;
+        border: 1px solid rgb(48, 48, 48);
+        border-radius: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.1);
+        transition: border 0.5s;
+    }
+    header nav ul:hover {
+        border: 1px solid rgb(202, 138, 0);
+    }
+    nav ul li {
+        margin-right: 50px;
+        transition: all 0.2s;
+        padding-left: 30px;
+        
+    }
+    nav ul li:hover {
+        color:rgb(202, 138, 0);
+    }
+    nav {
+        width: 100%;
+        position: fixed;
+    }
+    nav #logo {
+        width: 150px;
+        position: relative;
+    }
+
+    body {
+        font-family: 'Bitter', serif;
+    }
+    
+    /************** content*******************/
+    .content{
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+        height: auto;
+        text-align: center;
+        width: 50%;
+    }
+    .content h1 {
+        margin-top: 20px;
+        color: rgb(48, 48, 48);
+        font-size: 40px;
+        font-weight: bold;
+    }
+    #map {
+        height: 500px;
+        width: auto;
+        margin: 0 auto;
+        border: 2px solid black;
+    }
+    #dofus {
+        position: absolute;
+        width: 400px;
+        top: 360px;
+        left: 40%;
+        z-index: -1;
+    }
+    /************* Content 2 ******************/
+    
+    .content2{
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(202, 138, 0);
+        border-top:  solid 1px black;
+        box-shadow:rgb(0, 0, 0) 0px 0px 30px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    article {
+        color: white;
+        font-size: 10px;
+        transition: all 0.5s;
+        background-color: rgba(26, 26, 26, 0.9);
+        margin: 20px auto;
+        padding: 10px;
+        border-radius: 50px;
+        width: 60%;
+        transition: background-color 0.3s;
+    }
+    article:hover{
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    article:hover p {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+    
+    article h4 {
+        text-align: justify;
+        font-size: 26px;
+        color:rgb(202, 138, 0);
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        padding-top: 10px;
+    }
+
+    article p {
+        text-align: justify;
+        margin: 0 auto;
+        font-size: 19px;
+        color: rgb(255, 255, 255);
+        padding-left: 50px;
+        padding-right: 25px;
+    }
+
+    #res {
+        width: 8%;
+        padding: auto;
+
+    }
+    #pres{
+        font-size: 10px;
+    }
+
+    .img-pres{
+        display: flex;
+        margin: 20px auto;
+        border: 1px solid black;
+    }
+
+    #imgAide {
+        width: 10%;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #imgSite {
+        width: 150px;
+        height: auto;
+        border-radius: 20px;
+    }
+    /***************FOOTER**************/
+
+    footer {
+        height: 90px;
+        padding-top: 20px;
+        border-top:  solid 1px black;
+    }
+    #image {
+        text-align: center;
+    }
+    #image:hover {
+        transform: rotateY(360deg);
+    }
+    #ytb {
+        height: 100px;
+        width: auto;
+        transform: rotateY(360deg);
+    }
+    #twitch {
+        position:relative;
+        bottom: 10px;
+        height: 80px;
+        width: auto;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    #twitch:hover {
+        transition: all 0.5s;
+        transform: rotateY(180deg);
+    }
+
+    .content3 p {
+        position: relative;
+        color: rgb(202, 138, 0);
+        font-weight: bold;
+        top: -70px;
+        left: 180px;
+        width: 150px;
+    }
+}
